@@ -56,8 +56,20 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="../my_weather_data_webpage.html">Landing</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="./visualizations/visualization1.html">Cloudiness</a>
+                <br>
+                <a href="./visualizations/visualization2.html">Windspeed</a>
+                <br>
+                <a href="./visualizations/visualization3.html">Latitude</a>
+                <br>
+                <a href="./visualizations/visualization4.html">Humidity</a>
+            </div>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -69,7 +81,7 @@
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-8 text-left"> 
-        <h1>So you two dig up, dig up dinosaurs?</h1>
+        <h1><strong>Cloudiness</strong></h1>
         <p>Jaguar shark! So tell me - does it really exist? We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! Just my luck, no ice. Hey, you know how I'm, like, always trying to save the planet? Here's my chance.</p>
         {% comment %} <hr>
         <h3>Visualizations</h3>
