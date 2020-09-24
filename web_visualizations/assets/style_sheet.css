@@ -80,7 +80,13 @@ body {
   .column-card-styling {
     margin: 2rem;
   }
+  .single-card-margin {
+    margin: 0;
+    margin-top: 2rem;
+  }
 }
+
+
 
 /* .column-spacer {
   margin-left: 5%;
