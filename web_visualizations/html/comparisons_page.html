@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/style_sheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
 
+<body>
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -20,37 +20,36 @@
       </button>
       <a class="navbar-brand" href="my_weather_data_webpage.html">Weather Check</a>
     </div>
-    <div class="navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="navbar-item dropdown">
+            <a class="btn btn-secondary nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Considerations
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="./comparisons_page.html">Comparisons</a>
+                <a class="dropdown-item link-text-color" href="./comparisons_page.html">Comparisons</a>
                 <br>
-                <a class="dropdown-item" href="./data_page.html">Data</a>
+                <a class="dropdown-item link-text-color" href="./data_page.html">Data</a>
                 <br>
-                <a class="dropdown-item" href="./analysis_page.html">Analysis</a>
+                <a class="dropdown-item link-text-color" href="./analysis_page.html">Analysis</a>
             </div>
         </li>
-        <li class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="navbar-item dropdown">
+            <a class="btn btn-secondary nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a href="./visualizations/visualization1.html">Cloudiness</a>
+                <a class="link-text-color" href="./visualizations/visualization1.html">Cloudiness</a>
                 <br>
-                <a href="./visualizations/visualization2.html">Wind Speed</a>
+                <a class="link-text-color" href="./visualizations/visualization2.html">Wind Speed</a>
                 <br>
-                <a href="./visualizations/visualization3.html">Max Temperature</a>
+                <a class="link-text-color" href="./visualizations/visualization3.html">Max Temperature</a>
                 <br>
-                <a href="./visualizations/visualization4.html">Humidity</a>
+                <a class="link-text-color" href="./visualizations/visualization4.html">Humidity</a>
             </div>
         </li>
       </ul>
     </div>
-  </div>
 </nav>
   <hr>
     <div class="row content">
