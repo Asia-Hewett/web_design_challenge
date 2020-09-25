@@ -2,9 +2,11 @@
 
 ## Background
 
+Site Hosted By GitHub: https://asia-hewett.github.io/web_design_challenge/
+
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-![Assignment Pic](./images/Weather.jpg)
+![Assignment Pic](./web_visualizations/images/html_images/Weather.jpg)
 
 ### Before You Begin
 
